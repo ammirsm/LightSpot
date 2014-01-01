@@ -1,6 +1,7 @@
 body{
 	margin, padding:0;
-	background:#000;
+	background:#050505;
+	overflow:hidden;
 }
 #top{
 	width:100px;
@@ -10,11 +11,25 @@ body{
 	position:absolute;
 	margin : auto;
 	opacity: 0.9;
-	box-shadow:0 0 77px 184px #FFF;
+	box-shadow:0 0 128px 129px #FFF;
 	z-index:-1;
 }
 h1{
 	font-family: 'Handlee', sans-serif;
-	color:#000;
+	color:#050505;
 	z-index: 1;
+	position: absolute;
+	margin-top: -21px;
+	top: 50%;
+	margin-left: -252px;
+	left: 50%;
+}
+h2{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 12pt;
+	position: fixed;
+	margin-left: -70px;
+	bottom: -8px;
+	left: 50%;
+	color:#050505;
 }

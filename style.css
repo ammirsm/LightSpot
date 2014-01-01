@@ -1,0 +1,20 @@
+body{
+	margin, padding:0;
+	background:#000;
+}
+#top{
+	width:100px;
+	height:100px;
+	background-color:#FFF;
+	border-radius:50%;
+	position:absolute;
+	margin : auto;
+	opacity: 0.9;
+	box-shadow:0 0 77px 184px #FFF;
+	z-index:-1;
+}
+h1{
+	font-family: 'Handlee', sans-serif;
+	color:#000;
+	z-index: 1;
+}
